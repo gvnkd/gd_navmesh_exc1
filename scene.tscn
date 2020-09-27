@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+
+[node name="scene" type="Node3D"]
+script = null
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+script = null
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform( 0.595553, -0.272746, 0.755597, 0, 0.940597, 0.339525, -0.803316, -0.202205, 0.560175, 4.79616, 2.15514, 3.55572 )
+script = null
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 8 )
+script = null
